@@ -1,4 +1,4 @@
-### README: Performance Comparison of K-Centroids Algorithms
+# Performance Comparison of K-Centroids Algorithms
 
 #### Project Overview
 This project compares the performance of four clustering algorithms on simulated datasets. The algorithms include:
