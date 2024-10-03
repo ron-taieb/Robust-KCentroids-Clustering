@@ -71,4 +71,4 @@ We generated the following plot to visually compare the clustering results acros
 This project highlights the relative strengths of median-based and mean-based clustering algorithms. While traditional KMeans and CustomKMeans excel in well-separated datasets, Fermat-Weber and Weiszfeld approaches demonstrate better robustness in non-separated data with noise. Future improvements could involve hybrid models that switch between mean and median-based strategies based on data characteristics.
 
 ### Citations:
-Beck, A., & Sabach, S. (2015). Weiszfeld’s Method: Old and New Results. *Mathematics of Operations Research*.
+Beck, A., & Sabach, S. (2015). Weiszfeld’s Method: Old and New Results. *Mathematics of Operations Research*. [Link to paper](https://ssabach.net.technion.ac.il/files/2015/12/BS2015.pdf)
