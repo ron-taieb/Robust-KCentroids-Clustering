@@ -16,26 +16,26 @@ We aim to explore how robust these algorithms are when applied to both separated
 
 #### Formulas:
 - **Silhouette Score**: Measures how similar a point is to its own cluster compared to other clusters.
-  \[
+  $$
   \text{S} = \frac{b - a}{\max(a, b)}
-  \]
-  where \(a\) is the average intra-cluster distance, and \(b\) is the average nearest-cluster distance.
+  $$
+  where $a$ is the average intra-cluster distance, and $b$ is the average nearest-cluster distance.
   
 - **Davies-Bouldin Index**: Measures the average similarity ratio of each cluster to the cluster that is most similar to it.
-  \[
+  $$
   \text{DBI} = \frac{1}{k}\sum_{i=1}^{k} \max_{i \neq j} \left(\frac{\sigma_i + \sigma_j}{d(c_i, c_j)}\right)
-  \]
-  where \( \sigma_i \) and \( c_i \) are the cluster dispersion and centroid, and \( d \) is the distance between centroids.
+  $$
+  where $ \sigma_i $ and $ c_i $ are the cluster dispersion and centroid, and $ d $ is the distance between centroids.
 
 - **Calinski-Harabasz Index**: Measures the ratio of the sum of between-cluster dispersion to within-cluster dispersion.
-  \[
+  $$
   \text{CH} = \frac{\text{trace}(B_k)}{\text{trace}(W_k)} \cdot \frac{n - k}{k - 1}
-  \]
+  $$
 
 - **NMI**: Evaluates clustering performance based on how much information about the true labels is captured in the predicted clusters.
-  \[
+  $$
   \text{NMI}(X, Y) = \frac{2I(X; Y)}{H(X) + H(Y)}
-  \]
+  $$
 
 #### Separated Data
 For the separated dataset, we simulate four well-separated groups of data. The performance comparison is shown below:
