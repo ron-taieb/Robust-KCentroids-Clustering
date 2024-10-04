@@ -1,6 +1,6 @@
 # Performance Comparison of K-Centroids Algorithms
 
-## Table of Contents
+### Table of Contents
 - [Project Overview](#project-overview)
 - [Problem Statement: Why KMeans Fails](#problem-statement-why-kmeans-fails)
 - [Objectives](#objectives)
