@@ -1,5 +1,18 @@
 # Performance Comparison of K-Centroids Algorithms
 
+## Table of Contents
+- [Project Overview](#project-overview)
+- [Problem Statement: Why KMeans Fails](#problem-statement-why-kmeans-fails)
+- [Objectives](#objectives)
+- [Formulas](#formulas)
+- [Separated Data](#separated-data)
+- [Non-Separated Data](#non-separated-data)
+- [Plot Comparison](#plot-comparison)
+- [Interpretation of Results](#interpretation-of-results)
+- [Conclusion](#conclusion)
+- [Citations](#citations)
+
+
 #### Project Overview
 This project compares the performance of four clustering algorithms on simulated datasets. The algorithms include:
 
